@@ -13,4 +13,4 @@ def max_value(val1, val2):
         return val2
 
 
-print(str(max_value(value1, value2)) + " is max value")
+print(str(max_value(value1, value2)) + " : is max value")
