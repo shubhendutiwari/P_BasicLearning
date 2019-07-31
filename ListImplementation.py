@@ -1,6 +1,6 @@
 ''' List Implementation
-def elementwise_greater_than(mylist, threshold):
-    """Return a list with the same length as mylist, where the value at index i is 
+    def elementwise_greater_than(mylist, threshold):
+    Return a list with the same length as mylist, where the value at index i is 
     True if L[i] is greater than threshold, and False otherwise.
         >>> elementwise_greater_than([1, 2, 3, 4], 2)
     [False, False, True, True]
