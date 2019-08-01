@@ -1,5 +1,5 @@
 """Define a function max()that takes two numbers as arguments and
-  returns the largest of them. Use the if-then-else construct available in Python."""
+  returns the largest of them. Use the if-then-else construct available in Python"""
 
 value1: int = int(input("Enter First number"))
 
