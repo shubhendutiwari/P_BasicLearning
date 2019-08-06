@@ -7,7 +7,6 @@ def is_palindrome(string1):
     else:
         return "This is not palindrome"
 
-
 string = input("Enter string for checking palindrome : ")
 
 print(is_palindrome(string))
