@@ -7,10 +7,10 @@ import re
 
 
 def correct(inputString):
-    # Removing extra spaces
+    #Removing extra spaces
     correctedString = re.sub ('\ +', ' ', inputString)
 
-    # Putting extra space after period
+    #Putting extra space after period
     correctedString = re.sub ('\.', '. ', correctedString)
 
     print (correctedString)
