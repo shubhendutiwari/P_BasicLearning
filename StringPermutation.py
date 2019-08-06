@@ -8,12 +8,12 @@ def allPermutations(str):
     permList = permutations (str)
 
     # print all permutations
-    for perm in list (permList):
-        print (''.join (perm))
+    for perm in list(permList):
+        print(''.join (perm))
 
     # Driver program
 
 
 if __name__ == "__main__":
-    str = 'ABCD'
-    allPermutations (str)
+    string = input("Enter string for permutation : ")
+    allPermutations(string)
